@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>tabel</title>
+
+    <style>
+        body {
+            background: #f4d0d0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            margin: 0;
+        }
+
+        table,
+        th,
+        td {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .table-container {
+            width: 600px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 24px;
+            box-shadow: 0px 1px 10px 1px gray;
+        }
+
+        thead {
+            text-align: center;
+        }
+
+        .table-head-content {
+            text-align: left;
+        }
+
+        .logo {
+            width: 120px;
+            height: 56px;
+        }
+
+        .border {
+            border-bottom: solid 1px #b1aaaa;
+            margin: 8px 0;
+        }
+
+        .body {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #667085;
+        }
+
+        .info-text {
+            margin: 0;
+            text-align: center;
+            color: #98A2B3;
+
+        }
+
+        .title {
+            text-align: left;
+            margin: 8px 0;
+
+        }
+
+        .subtitle {
+            text-align: left;
+            color: #667085;
+            margin: 8px 0;
+            width: 552px;
+        }
+
+        .container {
+            text-align: right;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="table-container">
+        <div style="margin-bottom: 16px;">
+            <p class='info-text body'>View in browser</p>
+        </div>
+        <table style="width: 100px;">
+            <thead>
+                <tr>
+                    <td class="border" colspan="3">
+                        <a class="border" href='#'>
+                            <div>
+                                <img class="logo" src="imeges/logo.png" alt="">
+                            </div>
+                        </a>
+
+                        <h2 class="title">Functional Style</h2>
+                        <p class="subtitle body">
+                            Combine practicality and style effortlessly with our furniture,
+                            offering functional designs
+                            that enhance your living space
+                        </p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="border">
+                    <td style="width: 370px;
+                    padding: 5px;">Item</td>
+                    <td style="text-align: right;">Qty</td>
+                    <td style="text-align: right;">Price</td>
+                </tr>
+                <div class="body border">
+                    <tr class="border body">
+                        <td style="padding:8px 0px
+                        ;">Elegant Feast</td>
+                        <td style="padding:8px 0px;text-align: right;">2</td>
+                        <td style="padding:8px 0px;text-align: right;">$499.99</td>
+                    </tr>
+                    <tr class="border body">
+                        <td style="padding:8px 0px;">Modern Fusion</td>
+                        <td style="padding:8px 0px;text-align: right;">2</td>
+                        <td style="padding:8px 0px;text-align: right;">$699.99</td>
+                    </tr>
+                    <tr class="border body">
+                        <td style="padding:8px 0px;">Rustic Charm</td>
+                        <td style="padding:8px 0px;text-align: right;">2</td>
+                        <td style="padding:8px 0px;text-align: right;">$399.99</td>
+                    </tr>
+                </div>
+                <tr class="border ">
+                    <td>Total</td>
+                    <td style="padding:8px 0px;text-align: right;">6</td>
+                    <td style="padding:8px 0px;text-align: right;">$3194.99</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">
+                        <table style="width: 100%;">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <img src="imeges/logo.png" alt="">
+                                        <p>Acme corporation</p>
+                                        <p>Think different</p>
+                                    </td>
+                                    <td class="container"> <!--style="vertical-align: bottom; text-align: right;-->
+                                        <p>di123 Main Street Anytown, CA 12345</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+</html>
